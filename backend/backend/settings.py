@@ -183,7 +183,8 @@ STATICFILES_DIRS = [ ]
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    "https://lms-frontend-two-lemon.vercel.app/",
-    "lms.tapmad.space",
+    'https://lms.tapmad.space',
+    'https://lms-frontend-two-lemon.vercel.app',
+    'http://localhost:3000', 
 ]
 
