@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-z*@xnwhn*l0gp09jvwd!z-ruht3q22s=xw7%no*f=fy7u#r&w0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['lms-backend-ya7f.onrender.com', 'localhost', 'http://127.0.0.1:8000']
 
 # Custom UserModel
 
